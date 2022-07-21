@@ -1,0 +1,101 @@
+.header__extra-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header__extra-icons .header__extra-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header__extra-icons .header__extra-icon:last-of-type {
+    margin-left: 20px;
+}
+
+.header__extra-icons .header__extra-icon * {
+    text-decoration: none;
+}
+
+.header__extra-icons .header__extra-icon .text {
+    margin-left: 10px;
+    width: max-content;
+}
+
+.header__extra-icons .header__extra-icon .text p {
+    margin: 0;
+    color: rgba(var(--color-foreground),0.7);
+    line-height: 1.2;
+}
+
+.header__extra-icons .header__extra-icon:hover .text p {
+    color: rgba(var(--color-foreground),1);
+}
+
+.header__extra-icons .header__extra-icon .text .subheading {
+    font-size: 12px;
+    color: #727272;
+}
+
+.header__extra-icons .header__extra-icon .icon {
+    background: var(--gradient-base-accent-1);
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+
+.header__extra-icons svg {
+    width: 15px;
+    height: auto;
+    stroke: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header__extra-icons svg * {
+    fill: var(--gradient-background);
+}
+
+.header__extra-icons .header__extra-icon:last-of-type svg {
+    width: 10px;
+}
+
+.menu-drawer__utility-links .header__extra-icons {
+    width: 100%;
+    padding: 2rem 0;
+    margin-right: 0;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+@media (min-width: 750px) {
+    .header--top-center .header__heading {
+        margin-left: 30px;
+    }
+}
+
+.menu-drawer__utility-links .header__extra-icons .header__extra-icon .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.menu-drawer__utility-links .header__extra-icons .header__extra-icon .text p {
+    font-size: 18px;
+}
+
+.menu-drawer__utility-links .header__extra-icons .header__extra-icon .text .subheading {
+    font-size: 14px;
+}
+
+.menu-drawer__utility-links .header__extra-icons .header__extra-icon:last-of-type {
+    margin-left: 0;
+    margin-top: 20px;
+}

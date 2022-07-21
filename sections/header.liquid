@@ -158,6 +158,40 @@
                   </ul>
                 </nav>
                 <div class="menu-drawer__utility-links">
+                  {% if section.settings.location_link != blank and section.settings.location_icon != blank or section.settings.phone_icon != blank and section.settings.phone_number != blank %}
+                    <div class="header__extra-icons">
+                      {% if section.settings.location_link != blank and section.settings.location_icon != blank %}
+                        <a class="header__extra-icon" href="{{ section.settings.location_link }}" target="_blank">
+                          <div class="icon">
+                            {{ section.settings.location_icon }}
+                          </div>
+                          {% if section.settings.location_heading != blank or section.settings.location_subheading != blank %}
+                            <div class="text">
+                              {% if section.settings.location_heading != blank %}
+                                <p class="heading">{{ section.settings.location_heading }}</p>
+                              {% endif %}
+                              {% if section.settings.location_subheading != blank %}
+                                <p class="subheading">{{ section.settings.location_subheading }}</p>
+                              {% endif %}
+                            </div>
+                          {% endif %}
+                        </a>
+                      {% endif %}
+                      {% if section.settings.phone_icon != blank and section.settings.phone_number != blank %}
+                        <a class="header__extra-icon" href="tel:+{{ section.settings.phone_number | replace: ' ', '' | replace: '  ', '' }}">
+                          <div class="icon">
+                            {{ section.settings.phone_icon }}
+                          </div>
+                          <div class="text">
+                            {% if section.settings.phone_heading != blank %}
+                              <p class="heading">{{ section.settings.phone_heading }}</p>
+                            {% endif %}
+                            <p class="subheading">+{{ section.settings.phone_number }}</p>
+                          </div>
+                        </a>
+                      {% endif %}
+                    </div>
+                  {% endif %}
                   {%- if shop.customer_accounts_enabled -%}
                     <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="menu-drawer__account link focus-inset h5">
                       {% render 'icon-account' %}
@@ -403,6 +437,41 @@
     {%- endif -%}
 
     <div class="header__icons">
+      {% if section.settings.location_link != blank and section.settings.location_icon != blank or section.settings.phone_icon != blank and section.settings.phone_number != blank %}
+        <div class="header__extra-icons small-hide">
+          {% if section.settings.location_link != blank and section.settings.location_icon != blank %}
+            <a class="header__extra-icon" href="{{ section.settings.location_link }}" target="_blank">
+              <div class="icon">
+                {{ section.settings.location_icon }}
+              </div>
+              {% if section.settings.location_heading != blank or section.settings.location_subheading != blank %}
+                <div class="text">
+                  {% if section.settings.location_heading != blank %}
+                    <p class="heading">{{ section.settings.location_heading }}</p>
+                  {% endif %}
+                  {% if section.settings.location_subheading != blank %}
+                    <p class="subheading">{{ section.settings.location_subheading }}</p>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </a>
+          {% endif %}
+          {% if section.settings.phone_icon != blank and section.settings.phone_number != blank %}
+            <a class="header__extra-icon" href="tel:+{{ section.settings.phone_number | replace: ' ', '' | replace: '  ', '' }}">
+              <div class="icon">
+                {{ section.settings.phone_icon }}
+              </div>
+              <div class="text">
+                {% if section.settings.phone_heading != blank %}
+                  <p class="heading">{{ section.settings.phone_heading }}</p>
+                {% endif %}
+                <p class="subheading">+{{ section.settings.phone_number }}</p>
+              </div>
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+
       <details-modal class="header__search">
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
@@ -774,6 +843,49 @@
       "default": true,
       "label": "t:sections.header.settings.enable_sticky_header.label",
       "info": "t:sections.header.settings.enable_sticky_header.info"
+    },
+    {
+      "type": "header",
+      "content": "Location"
+    },
+    {
+      "type": "html",
+      "id": "location_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "location_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "location_subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "url",
+      "id": "location_link",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Phone Number"
+    },
+    {
+      "type": "html",
+      "id": "phone_icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "phone_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "phone_number",
+      "label": "Phone Number"
     }
   ],
         "blocks": [
