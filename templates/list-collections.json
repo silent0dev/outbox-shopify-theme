@@ -1,0 +1,334 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "image_padding": false
+      }
+    },
+    "16378427794703d317": {
+      "type": "collection-list",
+      "blocks": {
+        "163784277987527c91-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "abstract"
+          }
+        },
+        "163784277987527c91-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "art-decoration"
+          }
+        },
+        "14d732ee-3aaf-4d4e-8607-ada20c8c6ac0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "colored-metal-wall-art"
+          }
+        },
+        "ed0cd676-fb1f-4042-8296-87e4d6421767": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nature"
+          }
+        },
+        "583f6c50-8024-41fe-8ca3-cceca43b2d48": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "christianity"
+          }
+        },
+        "8d888c40-361a-4f01-9133-92d8bd2a3692": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hangers-hooks"
+          }
+        },
+        "a0e3c5ef-ab88-4eb1-aa7e-4234e7c68b2f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "quotes"
+          }
+        },
+        "4236b1b8-bf1b-4540-8563-8e5efd9bf058": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "signage-reference"
+          }
+        },
+        "163784277987527c91-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animals"
+          }
+        },
+        "f5db278a-c5e6-4d37-b8e1-3ebabe0bd69a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "world-maps"
+          }
+        },
+        "d29a1d7b-fc51-46a3-97b8-245f0eeb7c78": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "islam"
+          }
+        },
+        "862236e0-d140-4029-96e0-87e2624a1013": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "customize"
+          }
+        }
+      },
+      "block_order": [
+        "163784277987527c91-0",
+        "163784277987527c91-1",
+        "14d732ee-3aaf-4d4e-8607-ada20c8c6ac0",
+        "ed0cd676-fb1f-4042-8296-87e4d6421767",
+        "583f6c50-8024-41fe-8ca3-cceca43b2d48",
+        "8d888c40-361a-4f01-9133-92d8bd2a3692",
+        "a0e3c5ef-ab88-4eb1-aa7e-4234e7c68b2f",
+        "4236b1b8-bf1b-4540-8563-8e5efd9bf058",
+        "163784277987527c91-2",
+        "f5db278a-c5e6-4d37-b8e1-3ebabe0bd69a",
+        "d29a1d7b-fc51-46a3-97b8-245f0eeb7c78",
+        "862236e0-d140-4029-96e0-87e2624a1013"
+      ],
+      "settings": {
+        "title": "Browse by collections",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "1640128590c0db9a93": {
+      "type": "collection-list",
+      "blocks": {
+        "16401285903feeebfe-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathroom-1"
+          }
+        },
+        "16401285903feeebfe-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dining-room-1"
+          }
+        },
+        "16401285903feeebfe-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kitchen-1"
+          }
+        },
+        "304acdfa-2c03-4f34-9809-20b3141ed81f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bar"
+          }
+        },
+        "46aed233-ba50-4785-adff-e1209fc615c1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "entryway-1"
+          }
+        },
+        "b184c99f-f2ec-4d74-ae7d-f28b00653f0d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bedroom-1"
+          }
+        }
+      },
+      "block_order": [
+        "16401285903feeebfe-0",
+        "16401285903feeebfe-1",
+        "16401285903feeebfe-2",
+        "304acdfa-2c03-4f34-9809-20b3141ed81f",
+        "46aed233-ba50-4785-adff-e1209fc615c1",
+        "b184c99f-f2ec-4d74-ae7d-f28b00653f0d"
+      ],
+      "settings": {
+        "title": "Wall art for every room",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "164095896424b77d2c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Experience in Augmented Reality (AR)",
+        "collection": "experience-in-augmented-reality",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1640128549e79bc141": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Recently added wall art",
+        "collection": "newly-added",
+        "products_to_show": 8,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16401316582f63eb4c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop Bestsellers",
+        "collection": "bestsellers",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1640131766fe474316": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop steel structures",
+        "collection": "bestsellers-steel-structures",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16401321810ac5966c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Items with same week delivery",
+        "collection": "items-in-stock",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1640130857819f733a": {
+      "type": "image-with-text",
+      "blocks": {
+        "1640130857add541a1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Memories as solid as steel"
+          }
+        },
+        "1640130857add541a1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We'll convert your precious portrait photos and memories into a steel silhouette made out of thickened metal steel.<\/p>"
+          }
+        },
+        "1640130857add541a1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Order Yours Now",
+            "button_link": "shopify:\/\/products\/steel-silhouette"
+          }
+        }
+      },
+      "block_order": [
+        "1640130857add541a1-0",
+        "1640130857add541a1-1",
+        "1640130857add541a1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shutterstock_1210051669_5a45f556-d0bd-4e21-8691-2fdcd0eea33a.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1638273266b5ee7733": {
+      "type": "rich-text",
+      "blocks": {
+        "1638273266c46247b2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Got time? Browse everything at once.",
+            "heading_size": "h2"
+          }
+        },
+        "1638273266c46247b2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Browse our entire collection of metal wall art decor. <\/p>"
+          }
+        },
+        "1638273266c46247b2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse All",
+            "button_link": "shopify:\/\/collections\/all-metal-wall-art",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "1638273266c46247b2-0",
+        "1638273266c46247b2-1",
+        "1638273266c46247b2-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16378427794703d317",
+    "1640128590c0db9a93",
+    "164095896424b77d2c",
+    "1640128549e79bc141",
+    "16401316582f63eb4c",
+    "1640131766fe474316",
+    "16401321810ac5966c",
+    "1640130857819f733a",
+    "1638273266b5ee7733"
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "4e6f725b-a5e0-45b4-aaef-c8f46f267c0d": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.title }} is designed and rendered by our in-house architects and factory produced by our state-of-the-art workshop.",
+            "text_style": "subtitle"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "04d8811f-fa09-4995-9e12-8a2cd748fb4a": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.in_stock_notification.value }}",
+            "text_style": "body"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "ecd442c8-d96b-409c-b347-0ae576e97a0d": {
+          "type": "whatsapp_button",
+          "settings": {
+            "show_whatsapp_btn": true,
+            "whatsapp_num": "9619210905",
+            "wp_btn_text": "Order on WhatsApp",
+            "wbtn_color": "#408a7e",
+            "wp_font_size": 14,
+            "wp_margin_top": 14,
+            "wp_margin_bottom": -19
+          }
+        },
+        "d4200d2d-fcba-44a7-b3f7-e75aa3062a99": {
+          "type": "Showroom_button",
+          "settings": {
+            "show_showroom_btn": true,
+            "sr_btn_text": "Order from our showroom",
+            "sr_btn_url": "https:\/\/g.page\/OutboxSARL?share",
+            "srbtn_color": "#e22120",
+            "sr_font_size": 15,
+            "sr_margin_top": 14,
+            "sr_margin_bottom": -15
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "2772b07b-acf4-432a-880b-5e7ca4871845": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Technical Specifications",
+            "content": "<p>{{ product.metafields.my_fields.technical_specifications | metafield_tag }}<\/p><p><\/p><p>For more information, please check the product's description below.<\/p>",
+            "page": "",
+            "icon": "ruler"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "4e6f725b-a5e0-45b4-aaef-c8f46f267c0d",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "04d8811f-fa09-4995-9e12-8a2cd748fb4a",
+        "quantity_selector",
+        "ecd442c8-d96b-409c-b347-0ae576e97a0d",
+        "d4200d2d-fcba-44a7-b3f7-e75aa3062a99",
+        "buy_buttons",
+        "2772b07b-acf4-432a-880b-5e7ca4871845",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "ship_internationally_button": false,
+        "ship_internationally_message": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1648472653ad599f71": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "skafos-product-recommender": {
+      "type": "skafos-product-recommender",
+      "settings": {}
+    },
+    "16401043975c3e8f87": {
+      "type": "multicolumn",
+      "blocks": {
+        "1640104397b8f9c269-0": {
+          "type": "column",
+          "settings": {
+            "title": "Locally-made furniture",
+            "text": "<p>Furniture everywhere prioritizes alternate lightweight materials to cut shipping costs and sell more. Buying locally made furniture means no cap on creativity, materials to use and hassles of self-assembly.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1640104397b8f9c269-1": {
+          "type": "column",
+          "settings": {
+            "title": "Anti-rust and anti-corrosion",
+            "text": "<p>We're using the most advanced coating techniques to make sure your furniture always looks as perfect as the day you received it. Powder Coating has proven to be the most durable among all other options.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1640104397b8f9c269-2": {
+          "type": "column",
+          "settings": {
+            "title": "Led by architects, powered by technology",
+            "text": "<p>Unlike traditional workshops, Outbox is led by skillful architects unlocking a new world of possibilities in the field of industrial furniture. All combined with cutting-edge machinery, complex tasks become simpler and automated.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1640104397b8f9c269-0",
+        "1640104397b8f9c269-1",
+        "1640104397b8f9c269-2"
+      ],
+      "settings": {
+        "title": "Why choose Outbox?",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "1638450996e83dd93c": {
+      "type": "rich-text",
+      "blocks": {
+        "1638450996a93401b1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let's discuss your own furniture.",
+            "heading_size": "h1"
+          }
+        },
+        "1638450996a93401b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Visit our showroom in Adonis, Zouk Mosbeh.<\/p><p><\/p><p>Adonis, Zouk Mosbeh<br\/>Keserwan, Lebanon<\/p><p>Mon - Fri, 10am - 6pm<br\/>Saturday, 10am - 4pm<br\/>Sunday, closed<\/p>"
+          }
+        },
+        "1638450996a93401b1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get directions",
+            "button_link": "https:\/\/www.google.com\/maps?daddr=Outbox+sarl+lebanon",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "1638450996a93401b1-0",
+        "1638450996a93401b1-1",
+        "1638450996a93401b1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1640462973ef09f7bf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Furniture with same-week delivery",
+        "collection": "furniture-with-same-week-delivery",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "163845100521399bc4": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Or reach us via email"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "1648472653ad599f71",
+    "skafos-product-recommender",
+    "16401043975c3e8f87",
+    "1638450996e83dd93c",
+    "1640462973ef09f7bf",
+    "163845100521399bc4"
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16408976880ea80c0d": {
+      "type": "rich-text",
+      "blocks": {
+        "16408976888066423b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sell furniture that builds customer loyalty",
+            "heading_size": "h1"
+          }
+        },
+        "16408976888066423b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlike assembly lines and mass productions, we take our time to carefully oversee a single production unit down to its smallest details. Our entire process is handmade and requires very little machinery. Your customers will instantly notice and appreciate the new glow of their perfectly finished product and will want to come back for more!<\/p>"
+          }
+        },
+        "16408976888066423b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16408976888066423b-0",
+        "16408976888066423b-1",
+        "16408976888066423b-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "164090080926eb584c": {
+      "type": "multicolumn",
+      "blocks": {
+        "1640900809fe92311b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-tima-miroshnichenko-6169177-1.jpg",
+            "title": "Low MOQ",
+            "text": "<p>We're not big fans of mass production. We'd rather keep it small and focus on the big picture: quality. We're flexible when it comes to the quantity of items you'd like to order. So whether you order a small sample test or a big 40-feet container, our team will be equally happy to assist you.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1640900809fe92311b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-breakingpic-3305.jpg",
+            "title": "Competitive prices",
+            "text": "<p>Lebanon has one of the most affordable labor costs in the world, helping us offer you the best quality-price ratio in the industry. This helps you increase your profits while maintaining the quality of your offerings, building a strong reputation with your customers.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1640900809fe92311b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo-Electrostatic-spray-application-of-powder-paint-on-metal-objects-TW-1200x675-1.jpg",
+            "title": "Electrostatic powder coating",
+            "text": "<p>Demonstrating more resistance and greater protection to impact, moisture, chemicals, extreme weather, corrossion and rust, powder coating helps you build long-term peace of mind for you and your customers alike. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1640900809fe92311b-0",
+        "1640900809fe92311b-1",
+        "1640900809fe92311b-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "164090345398249c32": {
+      "type": "image-with-text",
+      "blocks": {
+        "1640903453a712fd6d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shift from the basics"
+          }
+        },
+        "1640903453a712fd6d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We love minimalist furniture. But sometimes, we'll challenge ourselves to build shapes and forms that scream uniqueness and elegance. Whatever design you have in mind, simple or complex, we're up to it!<\/p>"
+          }
+        },
+        "1640903453a712fd6d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1640903453a712fd6d-0",
+        "1640903453a712fd6d-1",
+        "1640903453a712fd6d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_c41c3646-beeb-4754-8d75-0f4faf650b12.jpg",
+        "height": "small",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
+    "164090346110b74c0b": {
+      "type": "image-banner",
+      "blocks": {
+        "164090346161b76d97-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "500+ designs. Or make it uniquely yours.",
+            "heading_size": "medium"
+          }
+        },
+        "164090346161b76d97-1": {
+          "type": "text",
+          "settings": {
+            "text": "Browse our website and choose from hundreds of architecturally-designed items. Add your brand's touch it or start from scratch."
+          }
+        },
+        "164090346161b76d97-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Explore Designs",
+            "button_link_1": "shopify:\/\/pages\/explore-furniture",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "164090346161b76d97-0",
+        "164090346161b76d97-1",
+        "164090346161b76d97-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_617af0c3-56eb-49fd-a456-bc1757059274.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "164090501251037fa6": {
+      "type": "rich-text",
+      "blocks": {
+        "16409050128170d504-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to elevate your furniture brand?",
+            "heading_size": "h1"
+          }
+        },
+        "16409050128170d504-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get in contact with our sales team today to start discussing the limitless possibilities of making your furniture brand more alive than ever.<\/p>"
+          }
+        },
+        "16409050128170d504-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16409050128170d504-0",
+        "16409050128170d504-1",
+        "16409050128170d504-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "164090476770b11b95": {
+      "type": "contact-form",
+      "settings": {
+        "heading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16408976880ea80c0d",
+    "164090080926eb584c",
+    "164090345398249c32",
+    "164090346110b74c0b",
+    "164090501251037fa6",
+    "164090476770b11b95"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "collection-product-grid-hide-price",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "hide_price": true,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "16392464929331c1bb": {
+      "type": "image-with-text",
+      "blocks": {
+        "1639246492476686b9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Looking for more dining tables?"
+          }
+        },
+        "1639246492476686b9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Exploit the full potential of metal craftmanship with unique metallic bases that will win all the attention.<\/p>"
+          }
+        },
+        "1639246492476686b9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Dining Tables",
+            "button_link": "shopify:\/\/products\/dining-table"
+          }
+        }
+      },
+      "block_order": [
+        "1639246492476686b9-0",
+        "1639246492476686b9-1",
+        "1639246492476686b9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/c72f145bbfcf6a4056ed1bf64accb8d2.jpg",
+        "height": "small",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "16392464929331c1bb"
+  ]
+}

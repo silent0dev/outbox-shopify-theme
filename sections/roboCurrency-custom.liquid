@@ -1,0 +1,51 @@
+<script type="application/javascript">
+// define custom currency rates
+function roboCurrencyBeforeConvert() {
+  {% for block in section.blocks limit: section.blocks.size %}
+  {% if block.settings.rate != '' %}
+    roboCurrency.rates["{{ block.settings.currency }}"] = {{ block.settings.rate }};
+  {% endif %}  
+  {% endfor %}
+  //roboCurrency.moneyFormats["LBP"]["money_format"] = '{{amount}}';
+  //roboCurrency.moneyFormats["LBP"]["money_with_currency_format"] = '{{amount}} LBP';
+}
+</script>
+
+{% schema %}
+  {
+    "name": "roboCurrency Custom",
+	"max_blocks": 1,
+	"blocks": [
+    {
+      "type": "select",
+      "name": "Custom Currency",
+      "settings": [
+         {
+          "type": "select",
+          "id": "currency",
+          "label": "Select Currency",
+          "options": [
+            {
+              "label": "LBP",
+              "value": "LBP"
+            }
+          ]
+        },
+        {
+            "type": "text",
+            "id": "rate",
+            "label": "Currency Rate"
+        }
+      ]
+    }
+	],
+    "settings": []
+  }
+{% endschema %}
+
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

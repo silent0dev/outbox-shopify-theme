@@ -1,0 +1,318 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1642630118b31d623a": {
+      "type": "image-banner",
+      "blocks": {
+        "1642630118e9a6e813-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Interior design is in our nature.",
+            "heading_size": "medium"
+          }
+        },
+        "1642630118e9a6e813-1": {
+          "type": "text",
+          "settings": {
+            "text": "Book your free interior design consultation today to get one step closer to designing the house of your dreams."
+          }
+        },
+        "1642630118e9a6e813-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Book Now",
+            "button_link_1": "https:\/\/calendly.com\/outbox-sarl\/interior-design-consultation",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1642630118e9a6e813-0",
+        "1642630118e9a6e813-1",
+        "1642630118e9a6e813-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shutterstock_1110968720.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16424538852366c438": {
+      "type": "rich-text",
+      "blocks": {
+        "1642453885fd882cd1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our interior design program is designed to get your space from A to Z in just three life-altering phases.",
+            "heading_size": "h2"
+          }
+        },
+        "1642453885fd882cd1-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1642453885fd882cd1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1642453885fd882cd1-0",
+        "1642453885fd882cd1-1",
+        "1642453885fd882cd1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1642428291745d90d4": {
+      "type": "image-with-text",
+      "blocks": {
+        "1642428291ccda5f8e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Phase 1: Define"
+          }
+        },
+        "1642428291ccda5f8e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>First, the design vision is defined. To begin our journey, we meet to understand your goals, challenges, needs, wants, and wishes. We discuss the project scope, share ideas, and decide how best to move forward together. A first draft will be issued and an initial quotation will be sent for approval.<\/p>"
+          }
+        },
+        "1642428291ccda5f8e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1642428291ccda5f8e-0",
+        "1642428291ccda5f8e-1",
+        "1642428291ccda5f8e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shutterstock_1070261993.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16424289365b44494e": {
+      "type": "image-with-text",
+      "blocks": {
+        "16424289352c1b7f79-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Phase 2: Design"
+          }
+        },
+        "16424289352c1b7f79-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Next, the design vision is conceived. We create a detailed plan of action and develop the design concepts that will inspire the spaces. We present the finalized design vision along with color palettes, selections, and architectural features for your input and approval at every benchmark.<\/p>"
+          }
+        },
+        "16424289352c1b7f79-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16424289352c1b7f79-0",
+        "16424289352c1b7f79-1",
+        "16424289352c1b7f79-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shutterstock_1734082757-1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "16424291942c869a03": {
+      "type": "image-with-text",
+      "blocks": {
+        "164242919464c5fc82-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Phase 3: Deliver and follow-up"
+          }
+        },
+        "164242919464c5fc82-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Finally, the design vision becomes a reality. Our team works closely with you with implementing the plan we have created together. We transform your space into a thoughtfully curated design — beyond your expectation and imagination.<\/p>"
+          }
+        },
+        "164242919464c5fc82-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164242919464c5fc82-0",
+        "164242919464c5fc82-1",
+        "164242919464c5fc82-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Scene_1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "164243118733e4c7fa": {
+      "type": "rich-text",
+      "blocks": {
+        "16424311872dd96e16-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Is it really free?",
+            "heading_size": "h2"
+          }
+        },
+        "16424311872dd96e16-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, we do not charge for an interior design consultation. However and in order to keep this service free for everyone, we expect your commitment and loyalty to the process. One of our architects will call you before the meeting to discuss your budget and its feasibilty in regards to your requirements.<\/p>"
+          }
+        },
+        "16424311872dd96e16-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16424311872dd96e16-0",
+        "16424311872dd96e16-1",
+        "16424311872dd96e16-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
+      }
+    },
+    "164243407992c68b1f": {
+      "type": "rich-text",
+      "blocks": {
+        "1642434079f4149db5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Is there anything else I need to know?",
+            "heading_size": "h2"
+          }
+        },
+        "1642434079f4149db5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One essential thing you must know is that Outbox is a steel-based factory. This means that the base and structure of the items we design and execute will be made out of metal steel. For example, we can design a dining table with steel-based legs and a wooden top, however, we are unable to design a dining table with a wooden base and a glass top. As long as the base is made out of metal steel, it can be combined with many other materials of your choice such as glass, wood, marble, ceramic, etc.<\/p>"
+          }
+        },
+        "1642434079f4149db5-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1642434079f4149db5-0",
+        "1642434079f4149db5-1",
+        "1642434079f4149db5-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
+      }
+    },
+    "164243388725e2d1fe": {
+      "type": "rich-text",
+      "blocks": {
+        "16424338876cd9e52e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Book your free interior design consultation",
+            "heading_size": "h1"
+          }
+        },
+        "16424338876cd9e52e-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16424338876cd9e52e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Now",
+            "button_link": "https:\/\/calendly.com\/outbox-sarl\/interior-design-consultation",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16424338876cd9e52e-0",
+        "16424338876cd9e52e-1",
+        "16424338876cd9e52e-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1642630118b31d623a",
+    "16424538852366c438",
+    "1642428291745d90d4",
+    "16424289365b44494e",
+    "16424291942c869a03",
+    "164243118733e4c7fa",
+    "164243407992c68b1f",
+    "164243388725e2d1fe"
+  ]
+}

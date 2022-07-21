@@ -1,0 +1,381 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "bf9cb272-8f69-479a-998b-83a674ba66eb": {
+          "type": "text",
+          "settings": {
+            "text": "This wall art is eligible for Buy 1 Get 1. For every item you buy, the second is discounted 50% off automatically.",
+            "text_style": "subtitle"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "body"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "df72fdd2-bceb-4abf-8a7b-7584431ad03f": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.in_stock_notification.value }}",
+            "text_style": "body"
+          }
+        },
+        "b3fa5854-68c7-4ee6-95ed-58ac9cf544fb": {
+          "type": "shopify:\/\/apps\/textbox-text-product-options\/blocks\/app-block\/b5626f69-87af-4a23-ada4-1674452f85d0",
+          "settings": {
+            "featured_product": "{{product}}"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "e77ac79a-b900-4b23-9700-a2d7a0d23b9a": {
+          "type": "whatsapp_button",
+          "settings": {
+            "show_whatsapp_btn": true,
+            "whatsapp_num": "9613234068",
+            "wp_btn_text": "Order on WhatsApp",
+            "wbtn_color": "#408a7e",
+            "wp_font_size": 14,
+            "wp_margin_top": 14,
+            "wp_margin_bottom": -20
+          }
+        },
+        "4249bc1b-f1c0-4cff-a0e8-36dfee055b26": {
+          "type": "Showroom_button",
+          "settings": {
+            "show_showroom_btn": true,
+            "sr_btn_text": "Order from our showroom",
+            "sr_btn_url": "https:\/\/g.page\/OutboxSARL?share",
+            "srbtn_color": "#E22120",
+            "sr_font_size": 15,
+            "sr_margin_top": 14,
+            "sr_margin_bottom": -15
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "8b526986-1ff8-4a93-a46e-1e640d96246a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size Chart",
+            "content": "<p>{{ product.metafields.my_fields.dimensions | metafield_tag }}<\/p><p><\/p><p>If dimensions do not appear in this tab, please check the product description or product options.<\/p>",
+            "page": "",
+            "icon": "ruler"
+          }
+        },
+        "98f49e91-7179-4566-ad57-e73299f4ee8a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Technical Specifications",
+            "content": "<p>{{ product.metafields.my_fields.technical_specifications | metafield_tag }}<\/p><p><\/p><p>Materials: mild metal steel<br\/>Steel thickness: 3mm<br\/>Finish: Powder Coating<br\/>Procedure: CNC Fibre Laser<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "4751e84f-d7c8-499f-b4d7-3569a471eff7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Installation",
+            "content": "<p>{{ product.metafields.my_fields.installation | metafield_tag }} <br\/>Installation is fairly easy for metal wall art and we make it even easier on you. We provide you with all the tools required for having it fixed on the wall.<\/p><p>If you've drilled anything on the wall before, installation will be straightforward. Below is a list of the tools you will need:<\/p><p>- 7mm screws (included)<\/p><p>- Anchors (included)<\/p><p>- Spacers (included)<\/p><p>- Drill (not included)<\/p><p><br\/>Spacers make your wall art stand away from the wall by 1.5cm, creating a 3D-like depth effect. We even pre-cut holes on the the metal artwork itself so you know exactly where to drill.<\/p><p>Alternatively, you can choose to have our team install your order for you by choosing the installation option at checkout. Additional fees will apply and appear at checkout.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "20fded6d-c7b8-4613-876b-3d3a72efaf6a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Local Delivery & Transportation",
+            "content": "<p>{{ product.metafields.my_fields.delivery_transportation | metafield_tag }}<\/p><p><\/p><p>Any dimension of {{ product.title }} that comfortably fits in a car will be delivered by a third-party courier at no extra fees or minor fees.<\/p><p>For large items, special transportation will be required and logistics fees will apply on checkout.<\/p><p>You can also choose to pick up your item from our showroom free of charge.<\/p><p>The item will be properly wrapped with nylon and in rare cases bubble wrap. As a factory first, we are unable to offer boxed packaging for every possible dimension we can produce.<\/p>",
+            "page": "",
+            "icon": "truck"
+          }
+        },
+        "34381f88-a11e-4df8-9600-658e379be98c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "International Shipping",
+            "content": "<p>To ship {{ product.title }} to your country, please request a shipping quotation above. Once approved, you'll be able to checkout securely from our website.<\/p><p>Metal steel is heavyweight so please expect high shipping fees.<\/p>",
+            "page": "",
+            "icon": "plane"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "bf9cb272-8f69-479a-998b-83a674ba66eb",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "df72fdd2-bceb-4abf-8a7b-7584431ad03f",
+        "b3fa5854-68c7-4ee6-95ed-58ac9cf544fb",
+        "quantity_selector",
+        "e77ac79a-b900-4b23-9700-a2d7a0d23b9a",
+        "4249bc1b-f1c0-4cff-a0e8-36dfee055b26",
+        "buy_buttons",
+        "8b526986-1ff8-4a93-a46e-1e640d96246a",
+        "98f49e91-7179-4566-ad57-e73299f4ee8a",
+        "4751e84f-d7c8-499f-b4d7-3569a471eff7",
+        "20fded6d-c7b8-4613-876b-3d3a72efaf6a",
+        "34381f88-a11e-4df8-9600-658e379be98c",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": true,
+        "ship_internationally_button": true,
+        "ship_internationally_message": true
+      }
+    },
+    "1640523310b33f0344": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "819b99c6-0cda-4d9b-8d93-0726b066aa59": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "819b99c6-0cda-4d9b-8d93-0726b066aa59"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1648472475bc734dfa": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1642975074fae07ce5": {
+      "type": "image-with-text",
+      "blocks": {
+        "16429750749b997791-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get help with dimensions."
+          }
+        },
+        "16429750749b997791-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "16429750749b997791-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "WhatsApp Now",
+            "button_link": "https:\/\/api.whatsapp.com\/send\/?phone=9619210905&text&app_absent=0"
+          }
+        }
+      },
+      "block_order": [
+        "16429750749b997791-0",
+        "16429750749b997791-1",
+        "16429750749b997791-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shutterstock_1873506652.jpg",
+        "height": "small",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
+    "16402858191eeb8eeb": {
+      "type": "newsletter",
+      "blocks": {
+        "1640285819296843bb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want to pay less?"
+          }
+        },
+        "1640285819296843bb-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscribe to our emails to receive occasional exclusive promotions.<\/p>"
+          }
+        },
+        "1640285819296843bb-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "1640285819296843bb-0",
+        "1640285819296843bb-1",
+        "1640285819296843bb-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "skafos-product-recommender": {
+      "type": "skafos-product-recommender",
+      "settings": {}
+    },
+    "16382950108406e226": {
+      "type": "multicolumn",
+      "blocks": {
+        "1638295010da240ecb-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Every piece is designed, programmed, then precisely cut by our top of the line Outbox fiber lasers.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1638295010da240ecb-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Your order then goes through electrostatic powder coating process so you never have to worry about corrosions or rust.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1638295010da240ecb-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Your order is at last inspected for imperfections and delivered to you in the safest way possible.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1638295010da240ecb-0",
+        "1638295010da240ecb-1",
+        "1638295010da240ecb-2"
+      ],
+      "settings": {
+        "title": "How the laser-cutting process works",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "163857324937cd6bf9": {
+      "type": "image-banner",
+      "blocks": {
+        "1638573249ab138c33-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visit our showroom",
+            "heading_size": "medium"
+          }
+        },
+        "1638573249ab138c33-1": {
+          "type": "text",
+          "settings": {
+            "text": "Adonis, Zouk Mosbeh Keserwan, Lebanon | Mon - Fri, 10am - 6pm Saturday, 10am - 4pm Sunday, closed"
+          }
+        },
+        "1638573249ab138c33-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get Directions",
+            "button_link_1": "https:\/\/www.google.com\/maps\/dir\/\/Outbox+SARL,+Industrial+Zone+roundabout,+near+Le+Charcutier+Elie+Azar+%26+Hanna+Habib+bldg,+GF,+Block+A+Facing+KitWood+Adonis,+Zouk+Mosbeh\/@33.9620245,35.5421555,12z\/data=!4m8!4m7!1m0!1m5!1m1!1s0x151f3f31d74a6a07:0x36d9f40372637b0!2m2!1d35.6121956!2d33.9620443",
+            "button_style_secondary_1": false,
+            "button_label_2": "WhatsApp Us",
+            "button_link_2": "https:\/\/wa.me\/9613234068",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "1638573249ab138c33-0",
+        "1638573249ab138c33-1",
+        "1638573249ab138c33-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_2135.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 60,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1640523310b33f0344",
+    "1648472475bc734dfa",
+    "1642975074fae07ce5",
+    "16402858191eeb8eeb",
+    "skafos-product-recommender",
+    "16382950108406e226",
+    "163857324937cd6bf9",
+    "product-recommendations"
+  ]
+}

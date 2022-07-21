@@ -1,0 +1,318 @@
+{
+  "current": {
+    "pluginseo_pageTitleTruncateChars": "999",
+    "pluginseo_pageTitleEnableAppender": true,
+    "pluginseo_pageTitleAppenderTemplate": "| %% shop.name %%",
+    "pluginseo_pageTitleAppenderTargetLength": "70",
+    "pluginseo_pageTitleTemplateApplyToAll": true,
+    "pluginseo_pageTitleIndexTemplate": "Modern Furniture, Wall Decor & Steelwork Contracting",
+    "pluginseo_metaDescriptionTruncateChars": "170",
+    "pluginseo_metaDescriptionTemplateApplyToAll": true,
+    "pluginseo_metaDescriptionIndexTemplate": "Explore center & side tables, desks, home bar accessories, bookcases and shelving, hangers, tv units, consoles, dining tables, mirrors, sideboards, benches, clocks, wall art decoration and complex steelwork contracting. Outbox redefines every aspect of your house with stunning modern furniture that's uniquely yours.",
+    "pluginseo_structuredDataDisplayLogo": true,
+    "pluginseo_structuredDataSocialProfileLinks": "https:\/\/www.facebook.com\/OutboxSARL\nhttps:\/\/www.instagram.com\/outboxsarl",
+    "pluginseo_structuredDataReviewApp": "autodetect",
+    "colors_solid_button_labels": "#FFFFFF",
+    "colors_accent_1": "#e22120",
+    "colors_accent_2": "#188e64",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#e22120",
+    "colors_background_1": "#FFFFFF",
+    "colors_background_2": "#F3F3F3",
+    "type_header_font": "muli_n4",
+    "heading_scale": 110,
+    "type_body_font": "muli_n4",
+    "body_scale": 100,
+    "accent_icons": "outline-button",
+    "page_width": "1600",
+    "social_facebook_link": "https:\/\/facebook.com\/outboxsarl",
+    "social_instagram_link": "http:\/\/instagram.com\/outboxsarl",
+    "favicon": "shopify:\/\/shop_images\/ou.png",
+    "currency_code_enabled": true,
+    "sh_header_family": "muli_n4",
+    "sh_paragraph_family": "muli_n4",
+    "price_match_modal_button_link": "https:\/\/form.jotform.com\/220543472574052",
+    "price_match_modal_enable": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_black_b97a726c-dbb1-43ed-9878-203125554f02.png",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#efefef",
+    "checkout_heading_font": "Lato",
+    "checkout_body_font": "Lato",
+    "checkout_accent_color": "#e22120",
+    "checkout_button_color": "#971f1f",
+    "checkout_error_color": "#e29a20",
+    "pluginseo_structuredDataDisplayLocalBusiness": true,
+    "pluginseo_structuredDataBusinessName": "Outbox SARL",
+    "pluginseo_structuredDataShopUrl": "https:\/\/www.outbox.sarl",
+    "pluginseo_structuredDataBusinessEmail": "inbox@outbox.sarl",
+    "pluginseo_structuredDataContactPhone": "+9613234068",
+    "pluginseo_structuredDataStreet": "Adonis",
+    "pluginseo_structuredDataLocality": "Zouk Mosbeh",
+    "pluginseo_structuredDataRegion": "Keserwan",
+    "pluginseo_structuredDataCountry": "LB",
+    "pluginseo_structuredDataPostalCode": "2341",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "5% OFF on wall art with code ONLINEONLY",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "be1e1d78-e1ab-40da-8f27-7ee2894ceddc": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Skip the wait & shop in-stock items",
+              "color_scheme": "inverse",
+              "link": "shopify:\/\/collections\/furniture-with-same-week-delivery"
+            }
+          },
+          "f18dbcc5-72f2-4512-86e6-50a12f2bfdf4": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Buy 1 Get 1 50% OFF  on Metal Wall Art",
+              "color_scheme": "accent-1",
+              "link": "shopify:\/\/collections"
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0",
+          "be1e1d78-e1ab-40da-8f27-7ee2894ceddc",
+          "f18dbcc5-72f2-4512-86e6-50a12f2bfdf4"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "c33ae742-1264-4c42-9ebf-cdda4d3acb74": {
+            "type": "announcement",
+            "settings": {
+              "text": "Visit us at Adonis, Zouk Mosbeh",
+              "color_scheme": "inverse",
+              "link": "https:\/\/g.page\/r\/CbA3JjdAn20DEAE"
+            }
+          },
+          "0e6e9cfd-5869-49d0-a5be-fee7be32d6e6": {
+            "type": "announcement",
+            "settings": {
+              "text": "Buy 1, Get 1 at 50% OFF on Metal Wall Art",
+              "color_scheme": "accent-1",
+              "link": "https:\/\/www.outbox.sarl\/collections"
+            }
+          },
+          "b57fbfbe-a5f4-4d39-a9a6-76680d3475a8": {
+            "type": "announcement",
+            "settings": {
+              "text": "Customize any item you see via WhatsApp",
+              "color_scheme": "inverse",
+              "link": "https:\/\/wa.me\/9619210905"
+            }
+          },
+          "3f084611-e59f-46c2-aa86-15709eaa2335": {
+            "type": "announcement",
+            "settings": {
+              "text": "Order online & pay cash on delivery",
+              "color_scheme": "inverse",
+              "link": ""
+            }
+          },
+          "cd201131-b242-4348-a9b6-f239c3ed98b9": {
+            "type": "announcement",
+            "settings": {
+              "text": "Skip the wait & shop in-stock items",
+              "color_scheme": "inverse",
+              "link": "shopify:\/\/collections\/furniture-with-same-week-delivery"
+            }
+          },
+          "6dc672cf-aa9d-4a04-babb-1f38c814e965": {
+            "type": "announcement",
+            "settings": {
+              "text": "Create a steel silhouette out of your own photo",
+              "color_scheme": "inverse",
+              "link": "shopify:\/\/products\/steel-silhouette"
+            }
+          }
+        },
+        "block_order": [
+          "c33ae742-1264-4c42-9ebf-cdda4d3acb74",
+          "0e6e9cfd-5869-49d0-a5be-fee7be32d6e6",
+          "b57fbfbe-a5f4-4d39-a9a6-76680d3475a8",
+          "3f084611-e59f-46c2-aa86-15709eaa2335",
+          "cd201131-b242-4348-a9b6-f239c3ed98b9",
+          "6dc672cf-aa9d-4a04-babb-1f38c814e965"
+        ],
+        "settings": {
+          "enable": true,
+          "speed": 3,
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/logo_black_b97a726c-dbb1-43ed-9878-203125554f02.png",
+          "logo_width": 160,
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "f47cb461-b0d0-44bb-9385-57adec5b186e": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Menu",
+              "menu": "main-menu"
+            }
+          },
+          "b8919d96-1b3a-4f38-9813-1f9cd4f56cf3": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Furniture",
+              "menu": "furniture"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "f47cb461-b0d0-44bb-9385-57adec5b186e",
+          "b8919d96-1b3a-4f38-9813-1f9cd4f56cf3",
+          "footer-1"
+        ],
+        "settings": {
+          "color_scheme": "inverse",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      },
+      "roboCurrency-custom": {
+        "type": "roboCurrency-custom",
+        "blocks": {
+          "c397de6c-9e60-42b6-8acc-f69f89898d7b": {
+            "type": "select",
+            "settings": {
+              "currency": "LBP",
+              "rate": "24000"
+            }
+          }
+        },
+        "block_order": [
+          "c397de6c-9e60-42b6-8acc-f69f89898d7b"
+        ],
+        "settings": {}
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo_black_b97a726c-dbb1-43ed-9878-203125554f02.png",
+          "logo_max_width": 140,
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "6279071938380501511": {
+        "type": "shopify:\/\/apps\/form-builder-contact-form\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_accent_1": "#121212",
+      "colors_accent_2": "#334FB4",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_header_font": "assistant_n4",
+      "type_body_font": "assistant_n4",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {}
+        }
+      }
+    },
+    "Craft": {
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_accent_1": "#2A332F",
+      "colors_accent_2": "#476154",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_background_1": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "menu",
+            "text"
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
+        }
+      }
+    }
+  }
+}

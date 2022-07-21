@@ -1,0 +1,226 @@
+{
+  "sections": {
+    "1638360693be98a6ea": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "163836069376c8a516-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "163836069376c8a516-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Furniture that lasts a lifetime",
+            "heading_size": "h1"
+          }
+        },
+        "163836069376c8a516-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For over five years, our architects have been transforming homes with cutting-edge modern furniture that encompasses aesthetics and convenience.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163836069376c8a516-2",
+        "163836069376c8a516-0",
+        "163836069376c8a516-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_filtering": false,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": true
+      }
+    },
+    "1640102686b223108e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Recently added furniture",
+        "collection": "recently-added-furniture",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
+    "16401026637008ae2f": {
+      "type": "multicolumn",
+      "blocks": {
+        "164010266302d45907-0": {
+          "type": "column",
+          "settings": {
+            "title": "Locally-made furniture",
+            "text": "<p>Furniture everywhere prioritizes alternate lightweight materials to cut shipping costs and sell more. Buying locally made furniture means no cap on creativity, materials to use and hassles of self-assembly.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "164010266302d45907-1": {
+          "type": "column",
+          "settings": {
+            "title": "Anti-rust and anti-corrosion",
+            "text": "<p>We're using the most advanced coating techniques to make sure your furniture always looks as perfect as the day you received it. Powder Coating has proven to be the most durable among all other options.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "164010266302d45907-2": {
+          "type": "column",
+          "settings": {
+            "title": "Led by architects, powered by technology",
+            "text": "<p>Unlike traditional workshops, Outbox is led by skillful architects unlocking a new world of possibilities in the field of industrial furniture. All combined with cutting-edge machinery, complex tasks become simpler and automated.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164010266302d45907-0",
+        "164010266302d45907-1",
+        "164010266302d45907-2"
+      ],
+      "settings": {
+        "title": "Why choose Outbox?",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1638441518b8d831a6": {
+      "type": "collection-list",
+      "blocks": {
+        "1638441518fb376a31-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accent-side-tables"
+          }
+        },
+        "1638441518fb376a31-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "center-coffee-tables"
+          }
+        },
+        "1638441518fb376a31-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dining-tables"
+          }
+        },
+        "d4e6efd9-4fd4-4c7e-abcd-f6def03ce738": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mirrors"
+          }
+        },
+        "a53e73dc-c9c1-4f96-b799-e658128393f3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bookcases"
+          }
+        },
+        "872df761-b0bf-4ed6-93ec-95cb4ea9a74e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "consoles"
+          }
+        },
+        "afbbfb51-cab5-4f1c-a7bc-128c9e2faaf1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "floor-decor"
+          }
+        },
+        "1eaa03fa-3468-411a-add5-e5b5c750ef7c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coat-hangers"
+          }
+        },
+        "52f4a7c9-0c27-4e79-9201-21ff97b924db": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wall-decor"
+          }
+        },
+        "9fa53212-4f30-46db-8ebe-f8d2b1a5f8a2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "home-bar"
+          }
+        },
+        "353aa431-2e36-42ad-ba3f-cfc7639a4603": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "home-office"
+          }
+        }
+      },
+      "block_order": [
+        "1638441518fb376a31-0",
+        "1638441518fb376a31-1",
+        "1638441518fb376a31-2",
+        "d4e6efd9-4fd4-4c7e-abcd-f6def03ce738",
+        "a53e73dc-c9c1-4f96-b799-e658128393f3",
+        "872df761-b0bf-4ed6-93ec-95cb4ea9a74e",
+        "afbbfb51-cab5-4f1c-a7bc-128c9e2faaf1",
+        "1eaa03fa-3468-411a-add5-e5b5c750ef7c",
+        "52f4a7c9-0c27-4e79-9201-21ff97b924db",
+        "9fa53212-4f30-46db-8ebe-f8d2b1a5f8a2",
+        "353aa431-2e36-42ad-ba3f-cfc7639a4603"
+      ],
+      "settings": {
+        "title": "Shop By Objects",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    }
+  },
+  "order": [
+    "1638360693be98a6ea",
+    "banner",
+    "product-grid",
+    "1640102686b223108e",
+    "16401026637008ae2f",
+    "1638441518b8d831a6"
+  ]
+}

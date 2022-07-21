@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": true
+      }
+    },
+    "1638452987d07e0633": {
+      "type": "collection-list",
+      "blocks": {
+        "1638452987d7558022-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "art-decoration"
+          }
+        },
+        "1638452987d7558022-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nature"
+          }
+        },
+        "1638452987d7558022-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "quotes"
+          }
+        },
+        "edf8cbbc-8dc5-482a-887a-f6d53f58e85c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "abstract"
+          }
+        },
+        "dccf4db3-9d6f-47c0-bc1a-88ec9007b214": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animals"
+          }
+        },
+        "d0a89913-585b-4c36-8d1c-6db42c63008d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "signage-reference"
+          }
+        }
+      },
+      "block_order": [
+        "1638452987d7558022-0",
+        "1638452987d7558022-1",
+        "1638452987d7558022-2",
+        "edf8cbbc-8dc5-482a-887a-f6d53f58e85c",
+        "dccf4db3-9d6f-47c0-bc1a-88ec9007b214",
+        "d0a89913-585b-4c36-8d1c-6db42c63008d"
+      ],
+      "settings": {
+        "title": "Browse by Collections",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1638452987d07e0633"
+  ]
+}

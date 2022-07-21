@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "1638305766bdb67466": {
+      "type": "rich-text",
+      "blocks": {
+        "16383057662f114e45-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Metal Wall Clocks",
+            "heading_size": "h1"
+          }
+        },
+        "16383057662f114e45-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our metal wall clocks collection brings the best of our fibre laser process to your time-checking habits.<\/p>"
+          }
+        },
+        "16383057662f114e45-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16383057662f114e45-0",
+        "16383057662f114e45-1",
+        "16383057662f114e45-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "163830513311b7f221": {
+      "type": "multicolumn",
+      "blocks": {
+        "16383051339ce6c394-0": {
+          "type": "column",
+          "settings": {
+            "title": "Outstanding finish",
+            "text": "<p>Our metal wall clocks undergo the same state-of-the-art procedure as any of our metal wall art. Fiber-powered laser precision ensures ultra smooth curves and edges.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16383051339ce6c394-1": {
+          "type": "column",
+          "settings": {
+            "title": "Long warranty",
+            "text": "<p>Every clock includes a battery-powered QUARTZ mechanism in the back backed by a 3-year warranty.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16383051339ce6c394-2": {
+          "type": "column",
+          "settings": {
+            "title": "Solid look",
+            "text": "<p>Every clock stands away from the wall with our custom spacers, creating a 3D-like shadowy effect that brings it more to life.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16383051339ce6c394-0",
+        "16383051339ce6c394-1",
+        "16383051339ce6c394-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": true
+      }
+    }
+  },
+  "order": [
+    "1638305766bdb67466",
+    "163830513311b7f221",
+    "banner",
+    "product-grid"
+  ]
+}

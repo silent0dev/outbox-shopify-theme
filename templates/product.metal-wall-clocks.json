@@ -1,0 +1,213 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "6bac7d1c-7f7c-4704-b80c-8d2afca958f4": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.in_stock_notification.value }}",
+            "text_style": "body"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "be1b98d4-c6fc-4cfe-8960-4cec841312a1": {
+          "type": "whatsapp_button",
+          "settings": {
+            "show_whatsapp_btn": true,
+            "whatsapp_num": "9619210905",
+            "wp_btn_text": "Order on WhatsApp",
+            "wbtn_color": "#408a7e",
+            "wp_font_size": 14,
+            "wp_margin_top": 14,
+            "wp_margin_bottom": -20
+          }
+        },
+        "8f55e590-0701-41fb-8051-beeaac56341e": {
+          "type": "Showroom_button",
+          "settings": {
+            "show_showroom_btn": true,
+            "sr_btn_text": "Order from our showroom",
+            "sr_btn_url": "https:\/\/g.page\/OutboxSARL?share",
+            "srbtn_color": "#E22120",
+            "sr_font_size": 15,
+            "sr_margin_top": 14,
+            "sr_margin_bottom": -15
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "0a300ab4-8b18-41f9-ab34-aa207158a07c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "content": "<p>{{ product.metafields.my_fields.technical_specifications | metafield_tag }}<\/p><p><\/p><p>Materials: Premium mild metal steel<\/p><p>Thickness: 3mm<\/p><p>Finish: Powder coating<\/p><p>Clock hardware: Included (Quartz)<\/p><p>Requires AA batteries (NOT included)<\/p><p>Assembly: Delivered fully assembled<\/p><p>Wall hanging: Fixed<\/p><p>Made to order<\/p><p>Made in Lebanon<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "33238873-fed7-4188-b30b-bf76d1e74db5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Installation",
+            "content": "<p>{{ product.metafields.my_fields.installation | metafield_tag }}<\/p><p><\/p><p>This clock includes all the tools required for fixing it on the wall, including 3cm spacers that make it stand away from the wall. A drill is required.<\/p><p><\/p><p>You can choose to have it installed by our team of experts at checkout.<\/p>",
+            "page": "",
+            "icon": "ruler"
+          }
+        },
+        "b240b8d0-5ddc-4cd7-85e2-996dd4866e42": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Clock hands",
+            "content": "<p>The design of the hands will not look identical to the ones shown in the photos. Due to limited supply and varieties, Outbox will try to procure the most matching and similar design available in the Lebanese market.<\/p>",
+            "page": "",
+            "icon": "lock"
+          }
+        },
+        "af1c3f71-f2b6-40f5-b890-1e40b58e5321": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Local Delivery",
+            "content": "<p>Any dimension of  {{ product.title }} that comfortably fits in a car will be delivered by a third-party courier at no extra fees or minor fees.<\/p><p>For large items, special transportation will be required and logistics fees will apply on checkout.<\/p><p>You can also choose to pick up your item from our showroom free of charge.<\/p><p>The item will be properly wrapped with nylon and in rare cases bubble wrap. As a factory first, we are unable to offer boxed packaging for every possible dimension we can produce.<\/p>",
+            "page": "",
+            "icon": "truck"
+          }
+        },
+        "d8ddacd7-5978-4b16-ab22-5dbe7bafec7a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "International Shipping",
+            "content": "<p>To ship {{ product.title }} to your country, please request a shipping quotation above. Once approved, you'll be able to checkout securely from our website.<\/p><p>Metal steel is heavyweight so please expect high shipping fees.<\/p>",
+            "page": "",
+            "icon": "plane"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "6bac7d1c-7f7c-4704-b80c-8d2afca958f4",
+        "quantity_selector",
+        "be1b98d4-c6fc-4cfe-8960-4cec841312a1",
+        "8f55e590-0701-41fb-8051-beeaac56341e",
+        "buy_buttons",
+        "0a300ab4-8b18-41f9-ab34-aa207158a07c",
+        "33238873-fed7-4188-b30b-bf76d1e74db5",
+        "b240b8d0-5ddc-4cd7-85e2-996dd4866e42",
+        "af1c3f71-f2b6-40f5-b890-1e40b58e5321",
+        "d8ddacd7-5978-4b16-ab22-5dbe7bafec7a",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "ship_internationally_button": true,
+        "ship_internationally_message": true
+      }
+    },
+    "16484725995e6dc2e3": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "164046305233cd8b0e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Furniture with same-week delivery",
+        "collection": "furniture-with-same-week-delivery",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "skafos-product-recommender": {
+      "type": "skafos-product-recommender",
+      "settings": {}
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1640478763ca1fce84": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16484725995e6dc2e3",
+    "164046305233cd8b0e",
+    "skafos-product-recommender",
+    "product-recommendations",
+    "1640478763ca1fce84"
+  ]
+}

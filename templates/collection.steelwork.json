@@ -1,0 +1,283 @@
+{
+  "sections": {
+    "164228436525f71d75": {
+      "type": "rich-text",
+      "blocks": {
+        "1642284365acb2a691-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Leave the steelwork to the pros",
+            "heading_size": "h1"
+          }
+        },
+        "1642284365acb2a691-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Crafting with steel is a complex process that not many people get well. Our team has years of experience in the field and is renowed for its top-class finishing. We will help you execute the best steelwork vision for your house. We promise to deliver work that exceeds your expectations.<\/p>"
+          }
+        },
+        "1642284365acb2a691-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1642284365acb2a691-0",
+        "1642284365acb2a691-1",
+        "1642284365acb2a691-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1646434235af01b2c1": {
+      "type": "rich-text",
+      "blocks": {
+        "1646434235d6518dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why choose Outbox?",
+            "heading_size": "h2"
+          }
+        },
+        "1646434235d6518dd0-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1646434235d6518dd0-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1646434235d6518dd0-0",
+        "1646434235d6518dd0-1",
+        "1646434235d6518dd0-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1638972489e2f8a99e": {
+      "type": "multicolumn",
+      "blocks": {
+        "1638972489cddd0db1-0": {
+          "type": "column",
+          "settings": {
+            "title": "Best-in-class welding",
+            "text": "<p>Welding is in the heart of steelwork. Our team uses advanced electron beams and laser welding which proved to provide the most precision and highest quality finishing.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1638972489cddd0db1-1": {
+          "type": "column",
+          "settings": {
+            "title": "Hand scraping",
+            "text": "<p>Nothing ever beats old fashioned hand scraping. Accuracy and flatness are two of its benefits that help improve machine loop stiffness, workpiece surface finish and component geometry.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1638972489cddd0db1-2": {
+          "type": "column",
+          "settings": {
+            "title": "Electrostatic powder coating",
+            "text": "<p>We paint everything using the most effective coating method. With powder coating, you can say goodbye to corrosion and rust forever, indoor or outdoor.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1638972489cddd0db1-0",
+        "1638972489cddd0db1-1",
+        "1638972489cddd0db1-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "1646434997cbcbd495": {
+      "type": "rich-text",
+      "blocks": {
+        "16464349974d82972f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore Ideas",
+            "heading_size": "h1"
+          }
+        },
+        "16464349974d82972f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16464349974d82972f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16464349974d82972f-0",
+        "16464349974d82972f-1",
+        "16464349974d82972f-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "collection-product-grid-hide-price",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "hide_price": true,
+        "show_rating": false,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": true
+      }
+    },
+    "164643445870902468": {
+      "type": "rich-text",
+      "blocks": {
+        "1646434458220b1182-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Here's more of what we can create with steel...",
+            "heading_size": "h2"
+          }
+        },
+        "1646434458220b1182-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Center Tables • Side Tables • Consoles • TV Units • Shelvings • Radiator Covers • Railings • Dining Tables • Sideboards • Bars • Benches • Sofas & Chairs • Bed Structures • Nighstands • Desks • Cabinets • Chandeliers • Dividers • Doors • Door Defendes • Sliding Gates • Firepits • Metal Wall Art<\/p>"
+          }
+        },
+        "1646434458220b1182-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1646434458220b1182-0",
+        "1646434458220b1182-1",
+        "1646434458220b1182-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1638972253187be790": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Kickstart your next project. Request a quotation."
+      }
+    },
+    "163897224337a6ea8e": {
+      "type": "image-banner",
+      "blocks": {
+        "163897224346700dd3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let's meet in person",
+            "heading_size": "medium"
+          }
+        },
+        "163897224346700dd3-1": {
+          "type": "text",
+          "settings": {
+            "text": "Visit our showroom in Adonis, Zouk Mosbeh Keserwan, Lebanon | Mon - Fri, 10am - 6pm Saturday, 10am - 4pm Sunday, closed"
+          }
+        },
+        "163897224346700dd3-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get Directions",
+            "button_link_1": "https:\/\/www.google.com\/maps\/dir\/\/Outbox+SARL,+Industrial+Zone+roundabout,+near+Le+Charcutier+Elie+Azar+%26+Hanna+Habib+bldg,+GF,+Block+A+Facing+KitWood+Adonis,+Zouk+Mosbeh\/@33.9620245,35.5421555,12z\/data=!4m8!4m7!1m0!1m5!1m1!1s0x151f3f31d74a6a07:0x36d9f40372637b0!2m2!1d35.6121956!2d33.9620443",
+            "button_style_secondary_1": false,
+            "button_label_2": "WhatsApp",
+            "button_link_2": "https:\/\/wa.me\/9613234068",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "163897224346700dd3-0",
+        "163897224346700dd3-1",
+        "163897224346700dd3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_2135.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 50,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "164228436525f71d75",
+    "1646434235af01b2c1",
+    "1638972489e2f8a99e",
+    "1646434997cbcbd495",
+    "banner",
+    "product-grid",
+    "164643445870902468",
+    "1638972253187be790",
+    "163897224337a6ea8e"
+  ]
+}

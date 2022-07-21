@@ -1,0 +1,138 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "f9785ddc-bbcb-4810-b1a4-dd9c0a2dfeb9": {
+          "type": "whatsapp_button",
+          "settings": {
+            "show_whatsapp_btn": true,
+            "whatsapp_num": "9619210905",
+            "wp_btn_text": "Order on WhatsApp",
+            "wbtn_color": "#408A7E",
+            "wp_font_size": 14,
+            "wp_margin_top": 14,
+            "wp_margin_bottom": -14
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "e85b00a3-1351-4d0f-8d7f-d3c7c7dea441": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What specs should I choose?",
+            "content": "<p>{{ product.metafields.my_fields.dimensions | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "716c26ea-02d3-42ef-875b-00bc250a9c37": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Technical Specifications",
+            "content": "<p>{{ product.metafields.my_fields.technical_specifications | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "ruler"
+          }
+        },
+        "e26b58fd-f13e-4d09-a8c6-297153a5bda2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery",
+            "content": "<p>{{ product.metafields.my_fields.delivery_transportation | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "truck"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "f9785ddc-bbcb-4810-b1a4-dd9c0a2dfeb9",
+        "buy_buttons",
+        "description",
+        "share",
+        "e85b00a3-1351-4d0f-8d7f-d3c7c7dea441",
+        "716c26ea-02d3-42ef-875b-00bc250a9c37",
+        "e26b58fd-f13e-4d09-a8c6-297153a5bda2"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "skafos-product-recommender": {
+      "type": "skafos-product-recommender",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "skafos-product-recommender"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16414997744a9ccad0": {
+      "type": "rich-text",
+      "blocks": {
+        "16414997749ee387d9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your guide to choosing the most ideal wood for your furniture",
+            "heading_size": "h1"
+          }
+        },
+        "16414997749ee387d9-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16414997749ee387d9-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16414997749ee387d9-0",
+        "16414997749ee387d9-1",
+        "16414997749ee387d9-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1641499633ae6c0b5c": {
+      "type": "multicolumn",
+      "blocks": {
+        "16414996334fa36890-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-01-06_at_10.15.49_PM.png",
+            "title": "Solid wood",
+            "text": "<p>Solid wood is real wood. Easy to refinish, repair, sand and stain to conceal damages. Comes with a more upfront cost but won't need to be replaced as much and can be refinished time and again.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16414996334fa36890-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-01-06_at_10.16.31_PM.png",
+            "title": "Veneer",
+            "text": "<p>The core would be usually made out of manufactured wood such as plywood with a thin layer of wood veneer on top and edges. Since veneers are sourced from trees they look like real wood where each sheet of veneer has a unique appearance. Unlike laminates, no two sheets of veneer look alike. The natural grain patterns of wood gives the veneer sheets a rich, warm and aesthetically pleasing look. Additionally veneers can be stained into different colours and finishes like gloss and matte. One disadvantage is that veneers are prone to scratches and the polishing peels off over a period of time. However just like wood, the veneer surface can be sanded and polished to achieve its original look. Veneers require periodic maintenance as they are not waterproof and may get damaged by heat. Therefore, veneer finishes should be avoided in moisture-laden areas like the kitchens or bathrooms because moisture can seep under the veneer and loosen the top layer. Note that a melamine coating can make the veneer surface waterproof. Since veneer sheets are made with thin layers of real wood, they are more costly than factory-manufactured laminate finishes.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16414996334fa36890-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-01-06_at_10.17.01_PM.png",
+            "title": "Laminate",
+            "text": "<p>Similar core as veneer with a laminated sheet on the surface. The topmost layer of each sheet comprises a decorative print or colourful sheet which is finished with a plastic coating that gives the laminate a shiny look. Laminates are easier to maintain in comparison to a veneer finish because they can retain their look for many years. The routine cleaning and maintenance of a laminate finish includes wiping the surface with a wet cloth or soapy water. Laminates are available in a vast number of colours, designs and finishes. One of the biggest advantages is that these enhance the look and feel of natural materials like stone, wood, leather, natural silk and so on. Some of the latest varieties of laminates are also available in flame retardant and antibacterial finishes.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16414996334fa36890-0",
+        "16414996334fa36890-1",
+        "16414996334fa36890-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16415003427a0cc6fe": {
+      "type": "rich-text",
+      "blocks": {
+        "16415003423723f7f5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Conclusion",
+            "heading_size": "h1"
+          }
+        },
+        "16415003423723f7f5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose solid wood if (1) you can afford it and (2) on furniture you occasionally use.<\/p><p><\/p><p>Otherwise, choose Veneer for furniture you use occasionally use or laminated wood for furniture you use most often.<\/p><p><\/p><p><\/p>"
+          }
+        },
+        "16415003423723f7f5-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16415003423723f7f5-0",
+        "16415003423723f7f5-1",
+        "16415003423723f7f5-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16414997744a9ccad0",
+    "1641499633ae6c0b5c",
+    "16415003427a0cc6fe"
+  ]
+}

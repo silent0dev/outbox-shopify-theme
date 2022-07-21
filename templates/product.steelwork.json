@@ -1,0 +1,188 @@
+{
+  "sections": {
+    "1638371243bd187177": {
+      "type": "rich-text",
+      "blocks": {
+        "163837124330fb9239-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore our gallery of {{ product.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "163837124330fb9239-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our architects have sketched, designed and computer-rendered the most unique furniture pieces. And we can't wait to execute them to life!<\/p>"
+          }
+        },
+        "163837124330fb9239-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Explore",
+            "button_link": "shopify:\/\/collections\/concept-furniture",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "163837124330fb9239-0",
+        "163837124330fb9239-1",
+        "163837124330fb9239-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "04e552b0-4cb1-45a8-a6fc-3b5f0047ea29": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "CUSTOM PRODUCT",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "8d2c5d25-f0e4-43dc-b584-4d44ad1f27f0": {
+          "type": "text",
+          "settings": {
+            "text": "If you'd like to ask for a quotation, please have approximate dimensions of your space ready.",
+            "text_style": "subtitle"
+          }
+        },
+        "bf55b167-4b12-4bee-b2c1-99d6f9fc1b1e": {
+          "type": "whatsapp_button",
+          "settings": {
+            "show_whatsapp_btn": true,
+            "whatsapp_num": "9619210905",
+            "wp_btn_text": "Inquire on WhatsApp",
+            "wbtn_color": "#408a7e",
+            "wp_font_size": 14,
+            "wp_margin_top": 14,
+            "wp_margin_bottom": 14
+          }
+        },
+        "a7af1f12-d2d0-40af-b4b6-e9cb5214f376": {
+          "type": "Showroom_button",
+          "settings": {
+            "show_showroom_btn": true,
+            "sr_btn_text": "Inquire from our showroom",
+            "sr_btn_url": "https:\/\/g.page\/OutboxSARL?share",
+            "srbtn_color": "#e22120",
+            "sr_font_size": 15,
+            "sr_margin_top": -16,
+            "sr_margin_bottom": 13
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "04e552b0-4cb1-45a8-a6fc-3b5f0047ea29",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "8d2c5d25-f0e4-43dc-b584-4d44ad1f27f0",
+        "bf55b167-4b12-4bee-b2c1-99d6f9fc1b1e",
+        "a7af1f12-d2d0-40af-b4b6-e9cb5214f376",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "ship_internationally_button": false,
+        "ship_internationally_message": false
+      }
+    },
+    "1638296240fc08cc80": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Kickstart your next project with Outbox. Inquire about {{ product.title }} today."
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "skafos-product-recommender": {
+      "type": "skafos-product-recommender",
+      "settings": {}
+    }
+  },
+  "order": [
+    "1638371243bd187177",
+    "main",
+    "1638296240fc08cc80",
+    "product-recommendations",
+    "skafos-product-recommender"
+  ]
+}

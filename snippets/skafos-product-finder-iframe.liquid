@@ -1,0 +1,36 @@
+
+ {%- comment -%}
+ This file is used by one of the Skafos widgets. Please don't modify or overwrite this file!
+ {%- endcomment -%}
+ <div id="insert-skafos-frame"></div>
+ <script type="module">
+   window.skafosConfig = {{shop.id}};
+   import { setupSkafosProductFinder } from 'https://hosted.skafos.ai/assets/scripts/skafos-iframe-messenger.js'
+
+   try{
+        // Shopify.currency is an undocumented object, so they can change it anytime without warning.
+        window.skafosCurrency = window.skafosCurrency || {};
+        window.skafosCurrency.currency_code = Shopify.currency.active ;
+        window.skafosCurrency.currency_rate = Shopify.currency.rate ;
+        window.skafosCurrency.currency_symbol = '{{cart.currency.symbol}}'
+        //Eg window.skafosCurrency = {currency_code: 'USD', currency_rate: '1.0', currency_symbol: '$'}
+    } catch(error){}
+
+    var finderConfig = {};
+    if(window.skafosCurrency){
+        finderConfig.app = {};
+        finderConfig.app.currency_code = window.skafosCurrency.currency_code;
+        finderConfig.app.currency_formats = {};
+        finderConfig.app.currency_formats.money_format = window.skafosCurrency.currency_symbol + '{{amount}}' ;
+        finderConfig.app.currency = window.skafosCurrency;
+    }
+
+   setupSkafosProductFinder(
+     "insert-skafos-frame",
+     'gid://shopify/Shop/{{shop.id}}',
+     '{{collection.id}}' ? 'gid://shopify/Collection/' + '{{collection.id}}' : '{{shop.metafields.skafos.collections.value.first.collection_id}}',
+     null, finderConfig, 'production'
+   )
+
+ </script>
+ 

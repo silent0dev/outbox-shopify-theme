@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "1638301596ed827daa": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "1638301596c694d1b4-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "art-decoration"
+          }
+        },
+        "1638301596c694d1b4-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "christianity"
+          }
+        },
+        "1638301596c694d1b4-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nature"
+          }
+        },
+        "5c791762-ceb0-42b3-8bce-ae3a32a13159": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "abstract"
+          }
+        }
+      },
+      "block_order": [
+        "1638301596c694d1b4-0",
+        "1638301596c694d1b4-1",
+        "1638301596c694d1b4-2",
+        "5c791762-ceb0-42b3-8bce-ae3a32a13159"
+      ],
+      "settings": {
+        "title": "Metal Wall Art",
+        "image_ratio": "adapt",
+        "color_scheme": "background-2",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": true
+      }
+    },
+    "1638302622c96b2333": {
+      "type": "collection-list",
+      "blocks": {
+        "1638302622514bf462-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animals"
+          }
+        },
+        "1638302622514bf462-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "quotes"
+          }
+        },
+        "1638302622514bf462-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "signage-reference"
+          }
+        },
+        "941e72ac-854f-4aba-9730-d7b6bd6fd0c7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "world-maps"
+          }
+        },
+        "69907fa3-23ea-442a-9fc6-48c4d884fb33": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "islam"
+          }
+        },
+        "b2c932ff-75f2-482f-a9e5-76bd17897a44": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kids-children"
+          }
+        },
+        "a8f6b88b-0a79-4f82-9066-9a742d055ca8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "art-decoration"
+          }
+        },
+        "18763067-428e-4dca-ad3d-b216da4414fd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "christianity"
+          }
+        },
+        "b960f319-387b-4e90-b673-7c8f5065b6b1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nature"
+          }
+        }
+      },
+      "block_order": [
+        "1638302622514bf462-0",
+        "1638302622514bf462-1",
+        "1638302622514bf462-2",
+        "941e72ac-854f-4aba-9730-d7b6bd6fd0c7",
+        "69907fa3-23ea-442a-9fc6-48c4d884fb33",
+        "b2c932ff-75f2-482f-a9e5-76bd17897a44",
+        "a8f6b88b-0a79-4f82-9066-9a742d055ca8",
+        "18763067-428e-4dca-ad3d-b216da4414fd",
+        "b960f319-387b-4e90-b673-7c8f5065b6b1"
+      ],
+      "settings": {
+        "title": "Explore more collections",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "1640131557bf128cc8": {
+      "type": "rich-text",
+      "blocks": {
+        "16401315576b0ba9b4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Got time?",
+            "heading_size": "h1"
+          }
+        },
+        "16401315576b0ba9b4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore our entire metal wall art designs in one big collection.<\/p>"
+          }
+        },
+        "16401315576b0ba9b4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore",
+            "button_link": "shopify:\/\/collections\/all-metal-wall-art",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "16401315576b0ba9b4-0",
+        "16401315576b0ba9b4-1",
+        "16401315576b0ba9b4-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1638301596ed827daa",
+    "banner",
+    "product-grid",
+    "1638302622c96b2333",
+    "1640131557bf128cc8"
+  ]
+}

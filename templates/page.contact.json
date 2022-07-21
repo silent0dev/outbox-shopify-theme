@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": ""
+      }
+    },
+    "164518844998154d08": {
+      "type": "image-banner",
+      "blocks": {
+        "1645188449ddcc86d4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visit our showroom",
+            "heading_size": "medium"
+          }
+        },
+        "1645188449ddcc86d4-1": {
+          "type": "text",
+          "settings": {
+            "text": "Adonis, Zouk Mosbeh Keserwan, Lebanon  Mon - Fri, 10am - 6pm Saturday, 10am - 4pm Sunday, closed"
+          }
+        },
+        "1645188449ddcc86d4-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Check us on Google Maps",
+            "button_link_1": "https:\/\/www.google.com\/maps?daddr=Outbox+sarl+lebanon",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1645188449ddcc86d4-0",
+        "1645188449ddcc86d4-1",
+        "1645188449ddcc86d4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_2135.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form",
+    "164518844998154d08"
+  ]
+}

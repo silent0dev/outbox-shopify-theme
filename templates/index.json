@@ -1,0 +1,544 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your home transformation starts here",
+            "heading_size": "medium"
+          }
+        },
+        "98f9fc15-df42-4a85-a4a5-b8723c3f370e": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP FURNITURE",
+            "button_link_1": "shopify:\/\/pages\/explore-furniture",
+            "button_style_secondary_1": false,
+            "button_label_2": "SHOP WALL ART",
+            "button_link_2": "shopify:\/\/collections",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "98f9fc15-df42-4a85-a4a5-b8723c3f370e",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Render_Modern_Room_1_F1.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 10,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16528750598d8f7484": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Your outdoor companions",
+        "collection": "firepits",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "034074be-5c14-407e-967c-45b73475d182": {
+          "type": "collection",
+          "settings": {
+            "collection": "recently-added-furniture",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "24f54833-ac63-4aef-b146-baba60946e10": {
+          "type": "collection",
+          "settings": {
+            "collection": "accent-side-tables",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "91524d8c-d6e5-46ab-968f-039c78477d5a": {
+          "type": "collection",
+          "settings": {
+            "collection": "home-bar",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "034074be-5c14-407e-967c-45b73475d182",
+        "24f54833-ac63-4aef-b146-baba60946e10",
+        "91524d8c-d6e5-46ab-968f-039c78477d5a"
+      ],
+      "settings": {
+        "heading": "Most Popular In Furniture",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "164046106441da4a67": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Furniture & wall art ready in stock",
+        "collection": "furniture-with-same-week-delivery",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16378424292cb5b9d8": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Get ready for Winter - Umbrella Holders",
+        "collection": "umbrella-holders",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Hang in there",
+        "collection": "coat-hangers",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16417516867716c363": {
+      "type": "collage",
+      "blocks": {
+        "1641751686f295eb55-1": {
+          "type": "product",
+          "settings": {
+            "product": "tree-of-life-v4",
+            "second_image": true,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "110c4ceb-8594-40f7-b9a7-a9d357793e95": {
+          "type": "product",
+          "settings": {
+            "product": "limbo",
+            "second_image": true,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "1641751686f295eb55-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "newly-added",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1641751686f295eb55-1",
+        "110c4ceb-8594-40f7-b9a7-a9d357793e95",
+        "1641751686f295eb55-2"
+      ],
+      "settings": {
+        "heading": "Shop Metal Wall Art",
+        "desktop_layout": "right",
+        "mobile_layout": "collage"
+      }
+    },
+    "1637791702a30a4d63": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "16377917024073d648-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visit our showroom"
+          }
+        },
+        "16377917024073d648-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We;<\/p>"
+          }
+        },
+        "16377917024073d648-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16377917024073d648-0",
+        "16377917024073d648-1",
+        "16377917024073d648-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_2135.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1638297097b0a4d7e0": {
+      "type": "collage",
+      "blocks": {
+        "163829709705f10981-1": {
+          "type": "product",
+          "settings": {
+            "product": "pentagon-planters",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "e7c9bb17-0876-4f1b-8d9b-394e0771a3c4": {
+          "type": "product",
+          "settings": {
+            "product": "dayne-wall-planter",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "bf255691-e575-434f-96f4-7df50c8a1db1": {
+          "type": "product",
+          "settings": {
+            "product": "bailey-planters",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        }
+      },
+      "block_order": [
+        "163829709705f10981-1",
+        "e7c9bb17-0876-4f1b-8d9b-394e0771a3c4",
+        "bf255691-e575-434f-96f4-7df50c8a1db1"
+      ],
+      "settings": {
+        "heading": "Embrace The Greenery",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "16382999777ef40344": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "The world is yours to explore",
+        "collection": "world-maps",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1638300208ac3a21ac": {
+      "type": "collage",
+      "blocks": {
+        "1638300208cf90706a-1": {
+          "type": "product",
+          "settings": {
+            "product": "arcadia-1",
+            "second_image": true,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "1638300208cf90706a-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "metal-wall-clocks",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "fb5048f4-cff1-47d1-b7c4-cd74b98df0de": {
+          "type": "product",
+          "settings": {
+            "product": "mesh-cork-catcher-clock",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        }
+      },
+      "block_order": [
+        "1638300208cf90706a-1",
+        "1638300208cf90706a-2",
+        "fb5048f4-cff1-47d1-b7c4-cd74b98df0de"
+      ],
+      "settings": {
+        "heading": "Tick-tock with a new clock",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1638300454f7d58a4b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Set your mark with metallic signage",
+        "collection": "signage-reference",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "163830069175a8fc10": {
+      "type": "collage",
+      "blocks": {
+        "190f6080-349d-4cb1-80d4-d7ab967a5a5b": {
+          "type": "product",
+          "settings": {
+            "product": "marty-wine-rack-cabinet",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "06526872-7a96-4834-8e4a-196b2d83e812": {
+          "type": "product",
+          "settings": {
+            "product": "nothing-a-cocktail-cant-fix",
+            "second_image": true,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "ff437032-95c7-4a2f-aa61-cb907d03d439": {
+          "type": "product",
+          "settings": {
+            "product": "leo-wall-mounted-bar",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        }
+      },
+      "block_order": [
+        "190f6080-349d-4cb1-80d4-d7ab967a5a5b",
+        "06526872-7a96-4834-8e4a-196b2d83e812",
+        "ff437032-95c7-4a2f-aa61-cb907d03d439"
+      ],
+      "settings": {
+        "heading": "Add a unique touch to your bar",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "16400871556df7a275": {
+      "type": "image-banner",
+      "blocks": {
+        "164008715518ebd6d2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore the Billy Center Table Series",
+            "heading_size": "large"
+          }
+        },
+        "164008715518ebd6d2-1": {
+          "type": "text",
+          "settings": {
+            "text": "The Billy center table series has set the trend for modernism in the living room. Featuring a stylish and minimal intersecting leg design and a mix-and-match top, the Billy series will blend just right in your unique interior."
+          }
+        },
+        "164008715518ebd6d2-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn More",
+            "button_link_1": "shopify:\/\/products\/billy-center-table-series",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "164008715518ebd6d2-0",
+        "164008715518ebd6d2-1",
+        "164008715518ebd6d2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Billy_tables_cam007_Final_F.jpg",
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1639874151b58340df": {
+      "type": "apps",
+      "blocks": {
+        "94695ac0-b098-4f5f-8d17-d5b72d86d5b8": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "94695ac0-b098-4f5f-8d17-d5b72d86d5b8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1637792159743557c7": {
+      "type": "rich-text",
+      "blocks": {
+        "1637792159769e369d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visit our showroom",
+            "heading_size": "h1"
+          }
+        },
+        "1637792159769e369d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Adonis, Zouk Mosbeh<br\/>Keserwan, Lebanon<\/p><p>Mon - Fri, 10am - 6pm<br\/>Saturday, 10am - 4pm<br\/>Sunday, closed<\/p>"
+          }
+        },
+        "4a20a2ac-633e-498d-a0f5-e0583c78fdcb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Directions",
+            "button_link": "https:\/\/www.google.com\/maps?daddr=Outbox+sarl+lebanon",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "1637792159769e369d-0",
+        "1637792159769e369d-1",
+        "4a20a2ac-633e-498d-a0f5-e0583c78fdcb"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1640558314f3630250": {
+      "type": "seo-headings",
+      "settings": {
+        "heading": "Shop modern and customized furniture in Lebanon | Outbox",
+        "subheading": "Explore center & side tables, desks, home bar accessories, bookcases and shelving, hangers, tv units, consoles, dining tables, mirrors, sideboards, benches, clocks, wall art decoration and complex steelwork contracting. Outbox redefines every aspect of your house with stunning modern furniture that's uniquely yours."
+      }
+    },
+    "16402852628fdfcf13": {
+      "type": "newsletter",
+      "blocks": {
+        "164028526246b83099-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want to pay less?"
+          }
+        },
+        "164028526246b83099-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscribe to our emails to receive occasional exclusive promotions.<\/p>"
+          }
+        },
+        "164028526246b83099-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "164028526246b83099-0",
+        "164028526246b83099-1",
+        "164028526246b83099-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "16528750598d8f7484",
+    "collage",
+    "164046106441da4a67",
+    "16378424292cb5b9d8",
+    "featured_products",
+    "16417516867716c363",
+    "1637791702a30a4d63",
+    "1638297097b0a4d7e0",
+    "16382999777ef40344",
+    "1638300208ac3a21ac",
+    "1638300454f7d58a4b",
+    "163830069175a8fc10",
+    "16400871556df7a275",
+    "1639874151b58340df",
+    "1637792159743557c7",
+    "1640558314f3630250",
+    "16402852628fdfcf13"
+  ]
+}
